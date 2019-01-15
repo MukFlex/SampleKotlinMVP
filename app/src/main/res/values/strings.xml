@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SampleKotlin</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="mile_away">mile_away</string>
+    <string name="miles_away">miles_away</string>
+    <string name="something_worng">Something went worng.</string>
+    <string name="login">SignIn</string>
+    <string name="forgot_password_question">Forgot Password</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="email_pass">Please Enter Email and Password</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="oops">Oops!</string>
+    <string name="ok">Ok</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyFont">
+        <attr name="customFont" format="string" />
+    </declare-styleable>
+    <declare-styleable name="RecordView">
+        <attr name="slide_to_cancel_text" format="string" />
+        <attr name="slide_to_cancel_arrow" format="reference" />
+        <attr name="slide_to_cancel_margin_right" format="dimension" />
+
+    </declare-styleable>
+
+    <declare-styleable name="RecordButton">
+
+        <attr name="src" format="reference" />
+
+    </declare-styleable>
+
+    <declare-styleable name="ImageDownloaderView">
+        <!-- The sibling to hide after the image is downloaded
+             and show when the image is being downloaded -->
+        <attr name="hideShowSibling" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="RoundRectCornerImageView">
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="roundedCorners">
+            <flag name="topLeft" value="1" />
+            <flag name="topRight" value="2" />
+            <flag name="bottomRight" value="4" />
+            <flag name="bottomLeft" value="8" />
+            <flag name="all" value="15" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="MLayout">
+        <attr name="pulse_count" format="integer" />
+        <attr name="pulse_duration" format="integer" />
+        <attr name="pulse_color" format="color" />
+        <attr name="pulse_repeat" format="integer" />
+        <attr name="pulse_maxScale" format="float" />
+        <attr name="pulse_startFromScratch" format="boolean" />
+        <attr name="pulse_interpolator" format="enum">
+            <enum name="Linear" value="0" />
+            <enum name="Accelerate" value="1" />
+            <enum name="Decelerate" value="2" />
+            <enum name="AccelerateDecelerate" value="3" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="gif_view">
+        <attr name="gif_src" format="string" />
+        <attr name="delay_in_millis" format="integer" />
+    </declare-styleable>
+
+
+</resources>
